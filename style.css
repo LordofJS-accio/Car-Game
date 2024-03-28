@@ -7,14 +7,14 @@
     display: none;
 }
 
-.car{
+.car, .enemy{
     position: absolute; 
     bottom: 100px;
     /* left: 200px; */
     width: 50px; 
     height: 100px;
     background-color: blue;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .gameArea{
@@ -23,4 +23,12 @@
     height: 100vh;
     position: relative;
     margin: auto;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    background-color: rgb(198, 36, 220);
+    margin-left: 95px;
 }
